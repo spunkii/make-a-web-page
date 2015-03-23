@@ -1,0 +1,122 @@
+/* This is a CSS comment.*/
+
+
+
+
+body {
+    padding: 20px 10px;
+	font-family: Calibri;
+	max-width: 2000px;
+	margin: 0 auto; 
+	font-size: 1em;
+}
+.notes {
+
+
+}
+.topics {
+    color : green;
+
+}
+h1 {
+    text-decoration: underline;
+    text-align : center;
+    border-radius: 20px;
+    color : rgb(26, 72, 189);
+    background-color: rgba(128, 128, 128, 0.52)
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    color : blueviolet;
+}
+h4 {
+    text-decoration: underline;
+    color : purple;
+} 
+.purple  {
+    list-style-image: url('sqpurple.gif');
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: rgb(61, 61, 137);
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+    ul#menu li a:hover {
+        background-color: orange;
+    }
+p.normal {
+    font-weight: normal;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+div.one {
+    border-style: outset;
+    border-radius: 20px;
+    border-width: medium;
+    border-color: rgba(29, 27, 27, 0.53);
+} 
+  .stop {
+    background-color: red;
+  }
+  .slow {
+    background-color: yellow;
+  }
+  .go {
+    background-color: green;
+  }
+.concept {
+    background-color: rgba(75, 83, 102, 0.25);
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    margin: 4px;
+    text-align: center;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+ }
+
+.box {
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+* {
+    box-sizing: border-box;
+}
